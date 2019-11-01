@@ -1,4 +1,4 @@
-﻿$apikey = 'mXaD522dUONajt7xbbWOQ'
+﻿$apikey = ''
 Clear-Variable Booktitle, Author, SeriesTitle, Description, Volume, Path, Book, Result, Series, track -ErrorAction SilentlyContinue
 Function Get-FileMetaData { 
  Param([string[]]$folder) 
