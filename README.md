@@ -1,6 +1,6 @@
 # AudiobookTagger
-Powershell script that sorts audiobook files based on folder name and goodreads api. Format &lt;track> - [&lt;series> #&lt;series number>] &lt;title>.  
-Scipt takes a folder with multiple folders of audio book tracks and gives them a standard format and the correct info based on GoodReads API.
+Powershell script that sorts audiobook files based on folder name and goodreads api. Format Author \ (Series) Book \ track - Book  
+Script takes a folder with multiple folders of audio book tracks and gives them a standard format and the correct info based on GoodReads API.
 Point scrpit to author folder (assuming format similar to audiobooks\author\book\)
 # Things To Do/Known Issues:
 Push info to ID3 file tags (multiple file types)  
